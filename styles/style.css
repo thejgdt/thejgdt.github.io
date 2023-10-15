@@ -9,6 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 
 .macUI {
@@ -18,6 +19,8 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   max-width: 1200px;
   width: 100%;
+  min-height: 600px;
+  height: 100%;
 }
 
 .toolbar {
