@@ -40,14 +40,6 @@ body {
   flex-grow: 1;
 }
 
-.nav-buttons {
-  display: flex;
-}
-
-.nav-buttons button {
-  margin-right: 5px;
-}
-
 .content {
   padding: 20px;
 }
