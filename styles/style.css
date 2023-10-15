@@ -1,0 +1,41 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.macUI {
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.toolbar {
+  background-color: #f6f6f6;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address-bar {
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.nav-buttons {
+  display: flex;
+}
+
+.nav-buttons button {
+  margin-right: 5px;
+}
+
+.content {
+  padding: 20px;
+}
