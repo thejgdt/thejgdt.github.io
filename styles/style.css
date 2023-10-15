@@ -31,6 +31,30 @@ body {
   align-items: center;
 }
 
+.traffic-light-container {
+  display: flex;
+  align-items: center;
+}
+
+.traffic-light {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.traffic-light.red {
+  background-color: #ff5f57;
+}
+
+.traffic-light.yellow {
+  background-color: #ffbd2e;
+}
+
+.traffic-light.green {
+  background-color: #28c940;
+}
+
 .address-bar {
   background-color: #fff;
   border: 1px solid #d1d1d1;
