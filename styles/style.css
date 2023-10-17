@@ -66,17 +66,28 @@ body {
 }
 
 .additional-element {
-  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  padding: 5px;
   border: 1px solid #d1d1d1;
   border-radius: 5px;
-  padding: 5px;
-  width: 15%;
   margin-left: 10px;
-  display: flex;
+  text-align: center;
+  text-decoration: none;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  text-align: center;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.additional-element:hover {
+  background-color: #eaeaea;
+  color: #333;
+}
+
+.additional-element i {
+  margin-bottom: 5px;
 }
 
 .content {
