@@ -34,6 +34,7 @@ body {
 .traffic-light-container {
   display: flex;
   align-items: center;
+  margin-right: 10px;
 }
 
 .traffic-light {
@@ -61,7 +62,20 @@ body {
   border-radius: 5px;
   padding: 5px;
   width: 70%;
-  margin: auto;
+}
+
+.additional-element {
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  padding: 5px;
+  width: 15%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .content {
