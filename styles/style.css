@@ -58,11 +58,27 @@ body {
 }
 
 .address-bar {
-  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 5px;
   border: 1px solid #d1d1d1;
   border-radius: 5px;
-  padding: 5px;
-  width: 70%;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.address-bar:hover {
+  background-color: #eaeaea;
+  color: #333;
+}
+
+.address-bar a {
+  text-decoration: none;
 }
 
 .additional-element {
@@ -84,6 +100,10 @@ body {
 .additional-element:hover {
   background-color: #eaeaea;
   color: #333;
+}
+
+.additional-element a {
+  text-decoration: none;
 }
 
 .additional-element i {
