@@ -16,3 +16,9 @@ function loadRandomQuote() {
     })
     .catch((error) => console.error("Error fetching random quotes:", error));
 }
+
+var addressBarElement = document.getElementById("addressBar");
+
+addressBarElement.addEventListener("click", function () {
+  loadRandomQuote();
+});
