@@ -1,5 +1,5 @@
 body {
-  background-color: #f8f9fa;
+  background: url("../images/bg.png");
   margin: 0;
   padding: 0;
 }
@@ -13,7 +13,8 @@ body {
 }
 
 .macUI {
-  border: 1px solid #d1d1d1;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -24,7 +25,6 @@ body {
 }
 
 .toolbar {
-  background-color: #f6f6f6;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -57,6 +57,7 @@ body {
 }
 
 .address-bar {
+  background-color: #f6f6f6;
   display: flex;
   flex-direction: column;
   width: 70%;
@@ -81,6 +82,7 @@ body {
 }
 
 .additional-element {
+  background-color: #f6f6f6;
   display: flex;
   flex-direction: column;
   width: 15%;
