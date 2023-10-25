@@ -28,14 +28,13 @@ body {
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .traffic-light-container {
   display: flex;
   align-items: center;
   margin-right: 10px;
-  align-self: flex-start;
 }
 
 .traffic-light {
