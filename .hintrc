@@ -11,6 +11,7 @@
         ]
       }
     ],
-    "disown-opener": "off"
+    "disown-opener": "off",
+    "manifest-app-name": "off"
   }
 }
