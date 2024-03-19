@@ -1,90 +1,103 @@
 :root {
-  --body-regular-font-family: "MonoLisa", "Roboto_Condensed";
-  --body-regular-font-weight: normal;
-  --body-regular-font-size: 15px;
-  --body-regular-line-height: 1.6;
-  --headingh-5-font-family: "MonoLisa", "Roboto_Condensed";
-  --headingh-5-font-weight: bold;
-  --headingh-5-font-size: 19px;
-  --headingh-5-line-height: 1.35;
-}
-
-html {
+    --body-regular-font-family: "MonoLisa", "Roboto_Condensed";
+    --body-regular-font-weight: normal;
+    --body-regular-font-size: 15px;
+    --body-regular-line-height: 1.6;
+    --headingh-5-font-family: "MonoLisa", "Roboto_Condensed";
+    --headingh-5-font-weight: bold;
+    --headingh-5-font-size: 19px;
+    --headingh-5-line-height: 1.35;
+  }
+  
+  html {
     background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-}
-
-body {
+  }
+  
+  body {
     margin: 0;
-}
-
-.card {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  padding: 33px;
-  box-sizing: border-box;
-}
-
-.card-body {
-  margin-bottom: 48px;
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  box-sizing: border-box;
-}
-
-.header-text {
-  margin-bottom: 10px;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: "Ms Madi";
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 1.35;
-  color: black;
-}
-
-.description {
-  margin-bottom: 34px;
-  display: inline-block;
-  overflow-wrap: break-word;
-  color: black;
-}
-
-.button-layout {
-  align-self: flex-start;
-  overflow-wrap: break-word;
-  color: #1400ff;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  padding: 0;
-}
-
-.card-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.ig-logo {
-  width: 32.85px;
-  height: 35.4px;
-}
-
-.gh-logo {
-  width: 32.85px;
-  height: 32.85px;
-}
-
-.tg-logo {
-  width: 32.85px;
-  height: 27.45px;
-}
+  }
+  
+  .ig-logo {
+    width: 32.85px;
+    height: 32.85px;
+  }
+  
+  .gh-logo {
+    width: 32.85px;
+    height: 35.4px;
+  }
+  
+  .tg-logo {
+    width: 32.85px;
+    height: 27.45px;
+  }
+  
+  .card {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 33px;
+    box-sizing: border-box;
+  }
+  
+  .card-body {
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    box-sizing: border-box;
+  }
+  
+  .header-text {
+    margin-bottom: 10px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: "Ms Madi";
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.35;
+    color: black;
+  }
+  
+  .description {
+    margin-bottom: 34px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: var(--body-regular-font-family);
+    font-weight: var(--body-regular-font-weight);
+    font-size: var(--body-regular-font-size);
+    line-height: var(--body-regular-line-height);
+    color: black;
+  }
+  
+  .button-layout {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: var(--headingh-5-font-family);
+    font-weight: var(--headingh-5-font-weight);
+    font-size: var(--headingh-5-font-size);
+    line-height: var(--headingh-5-line-height);
+    color: #1400FF;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+    padding: 0;
+  }
+  
+  .button-layout:hover {
+    background-color: rgba(20, 0, 255, 0.1);
+  }
+  
+  .card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+  }
