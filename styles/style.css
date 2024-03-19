@@ -42,3 +42,26 @@
     outline: none;
     padding: 0;
 }
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ig-logo {
+    width: 32.85px;
+    height: 35.4px;
+}
+
+.gh-logo {
+    width: 32.85px;
+    height: 32.85px;
+}
+
+.tg-logo {
+    width: 32.85px;
+    height: 27.45px;
+}
