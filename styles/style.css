@@ -1,67 +1,78 @@
+:root {
+  --body-regular-font-family: "MonoLisa", "Roboto_Condensed";
+  --body-regular-font-weight: normal;
+  --body-regular-font-size: 15px;
+  --body-regular-line-height: 1.6;
+  --headingh-5-font-family: "MonoLisa", "Roboto_Condensed";
+  --headingh-5-font-weight: bold;
+  --headingh-5-font-size: 19px;
+  --headingh-5-line-height: 1.35;
+}
+
 .card {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 33px;
-    box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 33px;
+  box-sizing: border-box;
 }
 
 .card-body {
-    margin-bottom: 48px;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    box-sizing: border-box;
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  box-sizing: border-box;
 }
 
 .header-text {
-    margin-bottom: 10px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: "Ms Madi";
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 1.35;
-    color: black;
+  margin-bottom: 10px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "Ms Madi";
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.35;
+  color: black;
 }
 
 .description {
-    margin-bottom: 34px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    color: black;
+  margin-bottom: 34px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  color: black;
 }
 
 .button-layout {
-    align-self: flex-start;
-    overflow-wrap: break-word;
-    color: #1400FF;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    padding: 0;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  color: #1400ff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
 }
 
 .card-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .ig-logo {
-    width: 32.85px;
-    height: 35.4px;
+  width: 32.85px;
+  height: 35.4px;
 }
 
 .gh-logo {
-    width: 32.85px;
-    height: 32.85px;
+  width: 32.85px;
+  height: 32.85px;
 }
 
 .tg-logo {
-    width: 32.85px;
-    height: 27.45px;
+  width: 32.85px;
+  height: 27.45px;
 }
