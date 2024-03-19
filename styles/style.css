@@ -1,19 +1,19 @@
 @font-face {
   font-family: "Monolisa";
-  src: url("fonts/MonoLisa/MonoLisa-Black.ttf") format("truetype"),
-    url("fonts/MonoLisa/MonoLisa-BlackItalic.ttf") format("truetype"),
-    url("fonts/MonoLisa/MonoLisa-Bold.ttf") format("truetype"),
-    url("fonts/MonoLisa/MonoLisa-BoldItalic.ttf") format("truetype"),
-    url("fonts/MonoLisa/MonoLisa-ExtraLight.ttf") format("truetype"),
-    url("fonts/MonoLisa/MonoLisa-ExtraLightItalic.ttf") format("truetype"),
-    url("fonts/MonoLisa/MonoLisa-Light.ttf") format("truetype"),
-    url("fonts/MonoLisa/MonoLisa-LightItalic.ttf") format("truetype"),
-    url("fonts/MonoLisa/MonoLisa-Medium.ttf") format("truetype"),
-    url("fonts/MonoLisa/MonoLisa-MediumItalic.ttf") format("truetype"),
-    url("fonts/MonoLisa/MonoLisa-Regular.ttf") format("truetype"),
-    url("fonts/MonoLisa/MonoLisa-RegularItalic.ttf") format("truetype"),
-    url("fonts/MonoLisa/MonoLisa-Thin.ttf") format("truetype"),
-    url("fonts/MonoLisa/MonoLisa-ThinItalic.ttf") format("truetype");
+  src: url("../fonts/Monolisa/MonoLisa-Black.ttf") format("truetype"),
+    url("../fonts/MonoLisa/Monolisa-BlackItalic.ttf") format("truetype"),
+    url("../fonts/MonoLisa/Monolisa-Bold.ttf") format("truetype"),
+    url("../fonts/MonoLisa/Monolisa-BoldItalic.ttf") format("truetype"),
+    url("../fonts/MonoLisa/Monolisa-ExtraLight.ttf") format("truetype"),
+    url("../fonts/MonoLisa/Monolisa-ExtraLightItalic.ttf") format("truetype"),
+    url("../fonts/MonoLisa/Monolisa-Light.ttf") format("truetype"),
+    url("../fonts/MonoLisa/Monolisa-LightItalic.ttf") format("truetype"),
+    url("../fonts/MonoLisa/Monolisa-Medium.ttf") format("truetype"),
+    url("../fonts/MonoLisa/Monolisa-MediumItalic.ttf") format("truetype"),
+    url("../fonts/MonoLisa/Monolisa-Regular.ttf") format("truetype"),
+    url("../fonts/MonoLisa/Monolisa-RegularItalic.ttf") format("truetype"),
+    url("../fonts/MonoLisa/Monolisa-Thin.ttf") format("truetype"),
+    url("../fonts/MonoLisa/Monolisa-ThinItalic.ttf") format("truetype");
 }
 
 :root {
