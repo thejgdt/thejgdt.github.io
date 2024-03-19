@@ -9,6 +9,18 @@
   --headingh-5-line-height: 1.35;
 }
 
+html {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
 .card {
   background-color: white;
   display: flex;
