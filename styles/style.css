@@ -1,0 +1,44 @@
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 33px;
+    box-sizing: border-box;
+}
+
+.card-body {
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+.header-text {
+    margin-bottom: 10px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: "Ms Madi";
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.35;
+    color: black;
+}
+
+.description {
+    margin-bottom: 34px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    color: black;
+}
+
+.button-layout {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    color: #1400FF;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+}
