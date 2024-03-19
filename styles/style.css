@@ -1,19 +1,6 @@
 @font-face {
-  font-family: "Monolisa";
-  src: url("../fonts/Monolisa/MonoLisa-Black.ttf") format("truetype"),
-    url("../fonts/MonoLisa/Monolisa-BlackItalic.ttf") format("truetype"),
-    url("../fonts/MonoLisa/Monolisa-Bold.ttf") format("truetype"),
-    url("../fonts/MonoLisa/Monolisa-BoldItalic.ttf") format("truetype"),
-    url("../fonts/MonoLisa/Monolisa-ExtraLight.ttf") format("truetype"),
-    url("../fonts/MonoLisa/Monolisa-ExtraLightItalic.ttf") format("truetype"),
-    url("../fonts/MonoLisa/Monolisa-Light.ttf") format("truetype"),
-    url("../fonts/MonoLisa/Monolisa-LightItalic.ttf") format("truetype"),
-    url("../fonts/MonoLisa/Monolisa-Medium.ttf") format("truetype"),
-    url("../fonts/MonoLisa/Monolisa-MediumItalic.ttf") format("truetype"),
-    url("../fonts/MonoLisa/Monolisa-Regular.ttf") format("truetype"),
-    url("../fonts/MonoLisa/Monolisa-RegularItalic.ttf") format("truetype"),
-    url("../fonts/MonoLisa/Monolisa-Thin.ttf") format("truetype"),
-    url("../fonts/MonoLisa/Monolisa-ThinItalic.ttf") format("truetype");
+  font-family: "MonoLisa";
+  src: url("../fonts/Monolisa/MonoLisa-Regular.ttf") format("truetype");
 }
 
 :root {
