@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Monolisa";
+  src: url("fonts/MonoLisa/MonoLisa-Black.ttf") format("truetype"),
+    url("fonts/MonoLisa/MonoLisa-BlackItalic.ttf") format("truetype"),
+    url("fonts/MonoLisa/MonoLisa-Bold.ttf") format("truetype"),
+    url("fonts/MonoLisa/MonoLisa-BoldItalic.ttf") format("truetype"),
+    url("fonts/MonoLisa/MonoLisa-ExtraLight.ttf") format("truetype"),
+    url("fonts/MonoLisa/MonoLisa-ExtraLightItalic.ttf") format("truetype"),
+    url("fonts/MonoLisa/MonoLisa-Light.ttf") format("truetype"),
+    url("fonts/MonoLisa/MonoLisa-LightItalic.ttf") format("truetype"),
+    url("fonts/MonoLisa/MonoLisa-Medium.ttf") format("truetype"),
+    url("fonts/MonoLisa/MonoLisa-MediumItalic.ttf") format("truetype"),
+    url("fonts/MonoLisa/MonoLisa-Regular.ttf") format("truetype"),
+    url("fonts/MonoLisa/MonoLisa-RegularItalic.ttf") format("truetype"),
+    url("fonts/MonoLisa/MonoLisa-Thin.ttf") format("truetype"),
+    url("fonts/MonoLisa/MonoLisa-ThinItalic.ttf") format("truetype");
+}
+
 :root {
   --body-regular-font-family: "MonoLisa", "Roboto_Condensed";
   --body-regular-font-weight: normal;
