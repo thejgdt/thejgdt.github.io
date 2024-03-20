@@ -92,12 +92,11 @@ body {
   cursor: pointer;
   outline: none;
   transition: background-color 0.3s ease;
-  padding: 8px;
+  padding: 0;
 }
 
 .button-layout:hover {
-  color: #ffffff;
-  background-color: #1400ff;
+  color: #1b00b5;
 }
 
 .card-footer {
