@@ -5,18 +5,18 @@ viewMoreButton.addEventListener("click", function () {
 });
 
 function handleInstagramClick() {
-  window.open("https://www.instagram.com/fyajgdt", "_blank");
+  window.open("https://www.instagram.com/fyajgdt", "_blank", "noopener");
 }
 
 function handleGitHubClick() {
-  window.open("https://github.com/thejgdt", "_blank");
+  window.open("https://github.com/thejgdt", "_blank", "noopener");
 }
 
 function handleTelegramClick() {
-  window.open("https://t.me/Km30JR", "_blank");
+  window.open("https://t.me/Km30JR", "_blank", "noopener");
 }
 
-function changeCursorToPointer(event) {
+function setCursorPointerOnHover(event) {
   event.target.style.cursor = "pointer";
 }
 
@@ -36,10 +36,10 @@ igText.addEventListener("click", handleInstagramClick);
 ghText.addEventListener("click", handleGitHubClick);
 tgText.addEventListener("click", handleTelegramClick);
 
-igLogo.addEventListener("mouseover", changeCursorToPointer);
-ghLogo.addEventListener("mouseover", changeCursorToPointer);
-tgLogo.addEventListener("mouseover", changeCursorToPointer);
+igLogo.addEventListener("mouseover", setCursorPointerOnHover);
+ghLogo.addEventListener("mouseover", setCursorPointerOnHover);
+tgLogo.addEventListener("mouseover", setCursorPointerOnHover);
 
-igText.addEventListener("mouseover", changeCursorToPointer);
-ghText.addEventListener("mouseover", changeCursorToPointer);
-tgText.addEventListener("mouseover", changeCursorToPointer);
+igText.addEventListener("mouseover", setCursorPointerOnHover);
+ghText.addEventListener("mouseover", setCursorPointerOnHover);
+tgText.addEventListener("mouseover", setCursorPointerOnHover);
