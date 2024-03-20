@@ -35,3 +35,11 @@ tgLogo.addEventListener("click", handleTelegramClick);
 igText.addEventListener("click", handleInstagramClick);
 ghText.addEventListener("click", handleGitHubClick);
 tgText.addEventListener("click", handleTelegramClick);
+
+igLogo.addEventListener("mouseover", changeCursorToPointer);
+ghLogo.addEventListener("mouseover", changeCursorToPointer);
+tgLogo.addEventListener("mouseover", changeCursorToPointer);
+
+igText.addEventListener("mouseover", changeCursorToPointer);
+ghText.addEventListener("mouseover", changeCursorToPointer);
+tgText.addEventListener("mouseover", changeCursorToPointer);
